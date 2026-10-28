@@ -1,0 +1,144 @@
+body {
+    font-family: serif;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.header {
+    background-color: rgb(252, 119, 67);
+    color :white;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-list li{
+    float: left;
+    padding: 33px 20px;
+   
+}
+
+.header li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main{
+    /*後ほど改変*/
+    padding: 100px 80px;
+
+}
+
+.main-pic {
+   display: flex;
+   
+}
+
+.main-explain {
+    padding: 100px;
+}
+.main-explain span {
+    font-size: 30px;
+    color:rgb(82, 39, 22);
+    font-weight: bold;
+
+}
+
+.main-pic img {
+width: 300px;
+height: 400px;
+
+}
+
+.who-is-him h1 {
+    background-image: linear-gradient(95deg, #f09a2f, #f7ce5d);
+    border-radius: 10px;
+}
+
+.who-is-him p a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.maplink {
+    width:20px;
+    height: 20px;
+}
+
+/*mainのなかみ*/
+.gallery h1 {
+    background-image: linear-gradient(95deg, #f09a2f, #f7ce5d);
+    border-radius: 10px;
+}
+
+.gallery-1 {
+    display: flex;
+}
+
+.gallery-1 img{
+    width: 300px;
+    height: 400px;
+}
+
+.gallery-2 {
+    display: flex;
+}
+
+.gallery-2 img {
+    width: 300px;
+    height: 400px;
+}
+
+.gallery-3 {
+    display: flex;
+}
+
+.gallery-3 img {
+    width: 300px;
+    height: 400px;
+}
+
+.contact-him h1 {
+    background-image: linear-gradient(95deg, #f09a2f, #f7ce5d);
+    border-radius: 10px;
+}
+
+.contact-1 {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-2 {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-3 {
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    background-color: rgb(103, 50, 29);
+    color:white;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.footer p {
+   text-align: center;
+}
